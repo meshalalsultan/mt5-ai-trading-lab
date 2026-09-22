@@ -12,7 +12,7 @@
 
 **اكتملت EXP-002 بحدود:** [التقرير العربي](../../experiments/EXP-002-multi-timeframe-analysis/RESULTS.ar.md) يضم التحقق من R02 وجميع النقاط المحلية. اللقطة الأصلية المفقودة لا تزال غير قابلة للمقارنة.
 
-**أُنجزت:** [EXP-003 — سجل التداول والمخاطر](../../experiments/EXP-003-history-risk/README.md). أُنجز المثال الاصطناعي وتحققت الحسابات مستقلًا. [النتيجة والتصحيحات](../../experiments/EXP-003-history-risk/RESULTS.ar.md). المرحلة التالية تحليل الهامش ولم تبدأ بعد. تحسين استراتيجية MASK DOW ENGINE مؤجل.
+**أُنجزت:** [EXP-003 — سجل التداول والمخاطر](../../experiments/EXP-003-history-risk/README.md). أُنجز المثال الاصطناعي وتحققت الحسابات مستقلًا. [النتيجة والتصحيحات](../../experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [نتائج تحليل الهامش](../../experiments/EXP-004-margin-analysis/RESULTS.ar.md)، حسابات تعليمية صحيحة مع تصحيحات؛ هامش الحساب الفعلي غير متحقق. المرحلة التالية EXP-005: Margin Call / Stop Out، ولم تبدأ بعد. تحسين استراتيجية MASK DOW ENGINE مؤجل.
 
 ## كيف تستخدم المشروع؟
 
