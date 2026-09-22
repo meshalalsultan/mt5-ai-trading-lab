@@ -6,8 +6,8 @@ Maintained by **Meshal Al-Sultan · Mask Trader**.
 
 This repository is the source of truth for a professional and commercial transition into AI Trading Solutions. It connects reproducible experiments to technical demonstrations, portfolio case studies, broker services, and potential educational products.
 
-> **Current status: Foundation prepared. EXP-001 is planned, not executed.**
-> No verified trading results, tested tools, customer outcomes, or commercial results are claimed.
+> **Current status: EXP-001 empty-input review completed with limitations.**
+> The review documents missing-data handling and the limits of self-audit. Populated-history diagnostic accuracy remains untested. [Read the methodology and evidence limits](experiments/EXP-001-account-diagnostic/RESULTS.md).
 
 ## Start here
 
