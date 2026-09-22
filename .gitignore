@@ -1,0 +1,37 @@
+# Credentials and private inputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*
+secrets/
+private/
+raw-data/
+**/raw/
+**/*unredacted*
+# Terminal runtime and compiled binaries
+*.ex5
+*.ex4
+*.log
+*.tmp
+*.bak
+*.set
+bases/
+config/
+profiles/
+logs/
+tester/cache/
+# Editor and OS
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Local output
+dist/
+build/

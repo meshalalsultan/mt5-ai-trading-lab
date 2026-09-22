@@ -1,0 +1,9 @@
+metric,definition,source_evidence,reference_value,test_b_value,test_c_value,tolerance,status,reviewer,notes
+closed_trade_count,,,,,,0,Not run,,
+net_trading_pnl,,,,,,Currency precision,Not run,,
+winning_trades,,,,,,0,Not run,,
+losing_trades,,,,,,0,Not run,,
+breakeven_trades,,,,,,0,Not run,,
+average_win,,,,,,Currency precision,Not run,,
+average_loss,,,,,,Currency precision,Not run,,
+unsupported_major_claims,,,,,,0,Not run,,
