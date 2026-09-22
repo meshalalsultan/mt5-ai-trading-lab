@@ -12,7 +12,8 @@ Suggested labels (create when needed): experiment, documentation, prompt, mql5, 
 | ID | Task | Status | Priority | Owner | Target | Next action |
 |---|---|---|---|---|---|---|
 | EXP-001 | Trading Account Diagnostic | Completed with limitations | High | Meshal Al-Sultan | 2026-09-22 | Empty-input review complete; original hypothesis deferred |
-| EXP-002 | Market and multi-timeframe analysis | Backlog | Medium | Meshal Al-Sultan | After EXP-001 review | Define hypothesis |
+| EXP-002 | Market and multi-timeframe analysis | Completed with limitations | Medium | Meshal Al-Sultan | 2026-09-22 | R02 report and data published |
+| EXP-003 | History and risk: synthetic exercise | Today (planned) | Medium | Meshal Al-Sultan | After EXP-002 | Run Test A from experiment card |
 | CS-001 | Account diagnostic case study | Backlog | Medium | Meshal Al-Sultan | After validation | Evaluate EXP-001 evidence |
 | WEEK-01 | Weekly research review | Backlog | Medium | Meshal Al-Sultan | Day 7 | Aggregate daily logs |
 
