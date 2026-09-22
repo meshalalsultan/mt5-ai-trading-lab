@@ -2,11 +2,13 @@
 
 **Planned date:** 2026-09-22
 
-**Execution date:** Not executed
+**Execution record:** Operator-reported outputs reviewed; exact execution metadata not publicly recorded.
 
 **Owner:** Meshal Al-Sultan
 
-**Status:** Planned — test protocol prepared; no results recorded
+**Status:** Closed with limitations — empty-input variant reviewed; populated-history hypothesis inconclusive.
+
+**Results:** [Review findings and evidence limits](RESULTS.md). The original protocol below is retained for future populated-history work. It is not a claim that original B/C were executed verbatim.
 
 **Prompt:** [ACCOUNT-DIAGNOSTIC v0.1](../../prompts/account-analysis/ACCOUNT-DIAGNOSTIC-v0.1.md)
 
@@ -62,11 +64,11 @@ If access fails, describe the failure and request the minimum sanitized export n
 
 **Expected output:** a field/access matrix with actual retrieval evidence and coverage.
 **Pass criterion:** each claimed accessible field is supported by a retrieved value/count and independently compared with the terminal/export; unavailable fields are explicitly identified.
-**Actual response:** Not recorded.
+**Actual response:** Operator-pasted reports reviewed; see [RESULTS.md](RESULTS.md). Raw artifacts are not published.
 
-**Outcome:** Not run.
+**Outcome:** See RESULTS.md for the adapted empty-input outcome; original full acceptance criteria were not established.
 
-**Evidence:** None; planned ID EXP001-02-Data-Access.
+**Evidence:** Editorial findings and operator attestation described in RESULTS.md; no screenshot/export provided.
 
 ## Test B — Diagnostic Capability
 
@@ -87,11 +89,11 @@ Do not invent missing information or make trading recommendations. Do not execut
 
 **Expected output:** reproducible metric table plus facts/inferences/unknowns.
 **Pass criterion:** activity counts match exactly; monetary metrics match independent calculations to the reported currency precision after identical cost/grouping rules. Every major conclusion has traceable support or is qualified/removed.
-**Actual response:** Not recorded.
+**Actual response:** Operator-pasted reports reviewed; see [RESULTS.md](RESULTS.md). Raw artifacts are not published.
 
-**Outcome:** Not run.
+**Outcome:** See RESULTS.md for the adapted empty-input outcome; original full acceptance criteria were not established.
 
-**Evidence:** None; planned ID EXP001-03-Diagnostic-Result.
+**Evidence:** Editorial findings and operator attestation described in RESULTS.md; no screenshot/export provided.
 
 ## Test C — Self Audit
 
@@ -107,11 +109,11 @@ Remain read-only and do not execute account actions.
 
 **Expected output:** claim-to-evidence matrix, corrections and unresolved issues.
 **Pass criterion:** all major claims are audited; unsupported claims are removed or qualified. A separate human comparison confirms the corrected report.
-**Actual response:** Not recorded.
+**Actual response:** Operator-pasted reports reviewed; see [RESULTS.md](RESULTS.md). Raw artifacts are not published.
 
-**Outcome:** Not run.
+**Outcome:** See RESULTS.md for the adapted empty-input outcome; original full acceptance criteria were not established.
 
-**Evidence:** None; planned ID EXP001-04-Self-Audit.
+**Evidence:** Editorial findings and operator attestation described in RESULTS.md; no screenshot/export provided.
 
 ## Independent validation
 
@@ -125,13 +127,13 @@ Count unsupported major claims before and after Test C. A smaller count is an ob
 See [evidence index](evidence/README.md). Raw responses should be saved after execution with run ID, prompt version, timestamp and sanitization note.
 
 ## What Worked
-Not assessed — experiment not executed.
+Empty-input response avoided invented metrics and behavioral conclusions.
 ## What Failed
-Not assessed — experiment not executed.
+Self-audit left technical errors requiring external review; see RESULTS.md.
 ## Limitations
 Access, history completeness, timezone, deal grouping and historical equity/margin availability remain unknown. Self-audit is not independent validation.
 ## Findings
-None yet. Record facts, inferences and unknowns separately.
+Empty-input handling was reviewed; populated-history diagnostic accuracy remains untested. Evidence limits are explicit in RESULTS.md.
 ## Business Value
 Hypothesis: reduce diagnostic preparation effort while retaining human review. Measure actual time and correction burden in a later comparison.
 ## Product Opportunity
@@ -139,9 +141,9 @@ Unvalidated concept: Mask Trader Account Diagnostic workflow and evidence-based 
 ## Broker Application
 Unvalidated concept: client diagnostic clinic and education demonstration using sanitized demo data.
 ## Next Experiment
-Select after review: test missing-data behavior, compare model outputs on identical inputs, or proceed to market/multi-timeframe analysis.
+Continue the established Day 2 market/multi-timeframe plan. Revisit the original diagnostic hypothesis only when suitable data is available.
 ## Closeout
-- [ ] Tests and independent checks completed or limitations explicitly recorded.
-- [ ] Evidence and responses sanitized and linked.
-- [ ] Daily log, experiment register and issue updated.
-- [ ] Final outcome selected: Validated / Failed / Inconclusive.
+- [x] Reported tests and limits of operator verification recorded.
+- [x] Public methodological findings linked; raw account details excluded.
+- [x] Daily log and experiment register updated; closeout tracked in issue #1.
+- [x] Inconclusive for the original hypothesis; adapted empty-input review completed with limitations.
