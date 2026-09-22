@@ -20,7 +20,9 @@
 
 **EXP-001 مغلقة بحدود:** راجعنا التعامل مع غياب بيانات التداول وحدود التدقيق الذاتي. لم نثبت بعد دقة تشخيص حساب يحتوي سجل صفقات فعليًا.
 
-**التالي:** اليوم الثاني — تحليل السوق عبر أطر زمنية متعددة. لم تبدأ هذه التجربة بعد. تحسين الاستراتيجيات مؤجل حتى نحافظ على تسلسل العمل.
+**EXP-002 أُغلقت بحدود:** نُشر [تقرير التحقق العربي](experiments/EXP-002-multi-timeframe-analysis/RESULTS.ar.md) وملفات R02. نتائج القاعدة: H4/H1 بنية مختلطة، M15 صاعد في اللقطة المحددة. اللقطة الأصلية غير محفوظة.
+
+**التالي:** [EXP-003 — سجل التداول والمخاطر](experiments/EXP-003-history-risk/README.md)، تمرين اصطناعي معلن لم يُنفذ بعد لعدم توفر سجل فعلي. تحسين الاستراتيجيات مؤجل.
 
 ## نظامنا
 
@@ -46,7 +48,7 @@ Maintained by **Meshal Al-Sultan · Mask Trader**.
 
 This repository is the source of truth for a professional and commercial transition into AI Trading Solutions. It connects reproducible experiments to technical demonstrations, portfolio case studies, broker services, and potential educational products.
 
-> **Current status: EXP-001 empty-input review completed with limitations.**
+> **Current status: EXP-001 and EXP-002 scoped reviews completed with limitations. EXP-003 synthetic history exercise prepared, not executed.**
 > The review documents missing-data handling and the limits of self-audit. Populated-history diagnostic accuracy remains untested. [Read the methodology and evidence limits](experiments/EXP-001-account-diagnostic/RESULTS.md).
 
 ## Start here
