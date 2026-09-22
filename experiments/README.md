@@ -3,5 +3,7 @@
 | ID | Title | Status | Outcome |
 |---|---|---|---|
 | [EXP-001](EXP-001-account-diagnostic/README.md) | Trading Account Diagnostic | Closed with limitations | Empty-input review completed; original diagnostic hypothesis inconclusive |
+| [EXP-002](EXP-002-multi-timeframe-analysis/README.md) | Multi-timeframe analysis | Closed with limitations | R02 computations verified; original snapshot unavailable |
+| [EXP-003](EXP-003-history-risk/README.md) | History and risk (synthetic exercise) | Planned | Not executed; not real-account validation |
 
 Copy [TEMPLATE.md](TEMPLATE.md) into a new EXP-NNN descriptive folder. Add evidence only after execution; update this register when the status changes.
