@@ -1,12 +1,11 @@
 # EXP-001 evidence index
 
-No evidence has been captured. Planned filenames are not completed artifacts.
+[Review findings](../RESULTS.md) summarize operator-supplied assistant reports and manual-check attestation.
 
-| ID | Intended artifact | Status |
+| Evidence | Availability | Limit |
 |---|---|---|
-| EXP001-01-AI-Settings | Sanitized build/model/settings screenshot | Pending |
-| EXP001-02-Data-Access | Test A response and access comparison | Pending |
-| EXP001-03-Diagnostic-Result | Test B response and independent calculations | Pending |
-| EXP001-04-Self-Audit | Test C corrected response and change log | Pending |
+| A / adapted B / adapted C responses | Supplied in conversation; methodological findings summarized | Raw MCP transcripts not supplied |
+| Manual platform check | Written operator attestation | No screenshot/export or direct reviewer inspection |
+| Model/version, execution inputs | Not independently established | Full reproduction not possible |
 
-For every captured item record filename/link, run ID, capture timestamp/timezone, source, prompt version, dataset ID, sanitization performed, and reviewer. Store screenshots under assets/screenshots and sanitized outputs under assets/results; link them here only once they exist.
+This public record excludes financial values, account fields, broker information, identifiers and session timestamps. An operator attestation supports the scoped review; it is not verification of every field or of overall diagnostic reliability.
