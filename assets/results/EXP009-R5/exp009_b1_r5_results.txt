@@ -1,0 +1,70 @@
+RUN|EXP009-B1-R5-CLOSEFIX|runid=1788220800|PASS=27|FAIL=0
+M01|PASS|state=1 send=1 vol=0.010000000000000009 consumed=1
+M02|PASS|state=3 send=2
+M03|PASS|state=1 vol=0.005 send=1 note=OPEN|PARTIAL|target-volume-violation-logged
+M04|PASS|state=5 sticky=1
+M05|PASS|state=1 dir=1 vol=0.01 send=2
+M06|PASS|state=0 send=3
+M07|PASS|state=3 send=1 noteSeq=3
+M08|S01|PASS|startup bar b1: no trade|exp=noAction+send0|act=action=0 send=0
+M08|S02|PASS|bar b2: open sent|exp=action+send1|act=action=1 send=1
+M08|S03|PASS|excess fill 0.015 > 0.01: sticky halt|exp=HALT+sticky|act=state=5 sticky=1
+M08|S04|PASS|signal during halt (b3): ignored|exp=noAction+send1|act=action=0 send=1
+M08|S05|PASS|signal during halt (b4): ignored|exp=noAction+send1|act=action=0 send=1
+M08|S06|PASS|ClearViolation: resume requires a newer bar|exp=waitNewBar+!HALT|act=wait=1 state=0
+M08|S07|PASS|same bar b4 after clear: waitNewBar blocks, b4 not consumed|exp=noAction+send1+wait1+consumed(b4)=0|act=action=0 send=1 wait=1 c(b4)=0
+M08|S08|PASS|new bar b5: fresh entry allowed; stale b4 key not used|exp=action+send2+consumed(b5)|act=action=1 send=2 c(b4)=0 c(b5)=1
+M08|PASS|send=2 wait=0
+M09|PASS|state=5 sticky=1
+M10|A1|PASS|fresh core startup: reference bar, no trade|exp=noAction+send0+FLAT|act=action=0 send=0 state=0
+M10|A2a|PASS|reinit(proof) with SELL position: adopted, not rejected|exp=SHORT+pos|act=state=2 pos=1
+M10|A2b|PASS|adopted position: opposite on a fresh bar closes (intent re-matched)|exp=closeSent|act=action=1 send=1 state=4
+M10|A2c|PASS|adopted position closed fully|exp=FLAT+noPos|act=state=0 pos=0
+M10|A3|PASS|reinit without proof: halt|exp=HALT+sticky|act=state=5 sticky=1 note=VIOLATION|reinit:unproven-prior-request
+M10|A4|PASS|startup with our-position (no proof): halt|exp=HALT+unattributable|act=state=5 note=VIOLATION|startup:unattributable-position
+M10|A5|PASS|reinit without proof, zero positions: halt|exp=HALT|act=state=5 sticky=1
+M10|PASS|scenarios=5
+M11|PASS|send=0 consumed=1
+M12|PASS|send=1 consumed(b2)=0 consumed(b3)=1
+M13|PASS|state=3 send=3
+M14|PASS|subtests=8
+M15|PASS|state=0 send=2
+M16|PASS|variants=3
+M17|PASS|state=3 send=1
+M18|S01|PASS|match(0.01, 1-0.99, 0.01): repr diff accepted|exp=E9_V_OK|act=verdict=0 diff=8.6736173798840355e-18 tol=7.1054273576010082e-17
+M18|S02|PASS|match(0.01, 0.1*0.1, 0.01): repr diff accepted|exp=E9_V_OK|act=verdict=0 diff=1.7347234759768071e-18 tol=7.1054273576010032e-17
+M18|S03|PASS|match(0.01, 0.0105, 0.01): real difference|exp=E9_V_MISMATCH|act=verdict=1 diff=0.00050000000000000044 tol=7.4606987254810524e-17
+M18|S04|PASS|onGrid(1-0.99, 0.01): repr diff stays on grid|exp=E9_V_OK|act=verdict=0 q=1.0000000000000009 res=8.8817841970012523e-16 tol=7.1054273576010082e-17
+M18|S05|PASS|onGrid(0.015, 0.01): off grid|exp=E9_V_MISMATCH|act=verdict=1 q=1.5 res=0.5 tol=1.0658141036401502e-16
+M18|S06|PASS|match(0.01, 0.0, 0.01): zero is invalid|exp=E9_V_INVALID|act=verdict=2
+M18|S07|PASS|match(0.01, EMPTY_VALUE, 0.01): sentinel invalid|exp=E9_V_INVALID|act=verdict=2 tol=0
+M18|S08|PASS|onGrid(-1.0, 0.01): negative invalid|exp=E9_V_INVALID|act=verdict=2
+M18|S09|PASS|match(1e10, 1e10+1, 1e-4): tol >= step/1e6|exp=E9_V_REFUSED|act=verdict=3 tol=7.1054273583115446e-05 step1e6=1e-10
+M18|PASS|fill=0.010000000000000009
+M19|PASS|state=5
+T20|PASS|subtests=4
+T21|PASS|subtests=8
+T22|PASS|subtests=8
+T23|A0|PASS|open sent, pending|exp=action+send1+PEND_OPEN|act=action=1 send=1 state=3
+T23|A1|PASS|call1: hist-only snapshot -> pending|exp=PEND_OPEN+send1|act=state=3 send=1 note=OPEN|filled-but-zero-deals
+T23|A2|PASS|call2: hist+deal1 -> pending (position not read yet)|exp=PEND_OPEN+send1|act=state=3 send=1 note=OPEN|filled-but-no-position
+T23|A3|PASS|call3: hist+deal1+deal2 (total=req) but NO position read|exp=PEND_OPEN+send1+no-position|act=state=3 send=1 note=OPEN|filled-but-no-position
+T23|A4|PASS|call4: hist+deals+position consistent -> CONFIRMED LONG 0.01|exp=LONG+vol0.01+send1+consumed1+wait1|act=state=1 vol=0.01 send=1 consumed=1 wait=1 note=OPEN|CONFIRMED
+T23|B1|PASS|snap1: hist+deal1 -> pending (position missing)|exp=PEND_OPEN+send1|act=state=3 send=1 note=OPEN|filled-but-no-position
+T23|B2|PASS|snap2: hist-only (deal dropped) -> regression blocks|exp=PEND_OPEN+send1+regressed|act=state=3 send=1 note=OPEN|evidence-regressed
+T23|PASS|subtests=4
+T24|PASS|subtests=6
+T25|PASS|subtests=6
+T26|PASS|pkg=EXP009-B1-R5-CLOSEFIX vol=0.01
+T27|a1|PASS|open LONG confirmed|exp=LONG|act=state=1
+T27|a2|PASS|close intent sent|exp=send2+PEND_CLOSE|act=action=1 send=2 state=4
+T27|a3|PASS|close LONG by SELL deal -> FLAT|exp=FLAT+noPos+wait|act=state=0 pos=0 wait=1
+T27|b1|PASS|open SHORT confirmed|exp=SHORT|act=state=2
+T27|b2|PASS|close intent sent|exp=send2+PEND_CLOSE|act=action=1 send=2 state=4
+T27|b3|PASS|close SHORT by BUY deal -> FLAT|exp=FLAT+noPos+wait|act=state=0 pos=0 wait=1
+T27|c1|PASS|wrong close direction on LONG rejected|exp=PEND_CLOSE+deal-dir-mismatch|act=state=4 send=2 note=CLOSE|deal-dir-mismatch
+T27|d1|PASS|partial close keeps linked remainder|exp=LONG 0.006 id=1 wait=1|act=state=1 vol=0.006 id=1 note=CLOSE|PARTIAL-REMAINDER-KEPT wait=1
+T27|d2|PASS|second close intent sent|exp=send3+PEND_CLOSE|act=action=1 send=3 state=4
+T27|d3|PASS|remainder closed fully|exp=FLAT+noPos|act=state=0 pos=0
+T27|PASS|subtests=10
+RESULTFILE|PASS|Common\Files\exp009_b1_r5_results.txt
