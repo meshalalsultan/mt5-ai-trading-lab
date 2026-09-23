@@ -22,6 +22,9 @@ Suggested labels (create when needed): experiment, documentation, prompt, mql5, 
 | EXP-007 | [Signal specification](experiments/EXP-007-signal-specification/README.md) | Completed scoped review | Medium | Meshal Al-Sultan | Plan task 8 | No full trading strategy or MQL5 implementation |
 | EXP-008 | [MQL5 indicator](experiments/EXP-008-mql5-indicator/README.md) | Completed educational build with limitations | Medium | Meshal Al-Sultan | Plan task 9 | Source/tests published; live numeric validation remains open |
 
+| EXP-009 | [Educational EA](experiments/EXP-009-educational-ea/README.md) | Completed scoped integration | High | Meshal Al-Sultan | Plan tasks 10–12 | Coverage limits retained; R5 published |
+| EXP-010 | [Backtest analysis](experiments/EXP-010-backtest-analysis/README.md) | Today: planned | High | Meshal Al-Sultan | Plan task 13 | Inventory existing Run 2 data; no new run |
+
 ## EXP-001 closeout
 
 [Issue #1](https://github.com/meshalalsultan/mt5-ai-trading-lab/issues/1) tracks the scoped empty-input review.
