@@ -7,6 +7,6 @@
 | [EXP-003](EXP-003-history-risk/README.md) | History and risk (synthetic exercise) | Closed with corrections | Synthetic arithmetic independently verified; funding explanation corrected; not real-account validation |
 | [EXP-004](EXP-004-margin-analysis/README.md) | Margin analysis (synthetic model) | Closed with corrections and limitations | Four cases verified; actual account margin unverified |
 | [EXP-005](EXP-005-margin-call/README.md) | Margin Call / Stop Out (synthetic) | Closed with limitations | Five snapshots and 15 identities verified; no actual liquidation |
-| [EXP-006](EXP-006-indicator-demo/README.md) | Indicator discovery and demo | Test A prepared | Execution results pending |
+| [EXP-006](EXP-006-indicator-demo/README.md) | Indicator discovery and demo | Closed adapted scope | Manual demo and partial settings verification; automation unverified |
 
 Copy [TEMPLATE.md](TEMPLATE.md) into a new EXP-NNN descriptive folder. Add evidence only after execution; update this register when the status changes.
