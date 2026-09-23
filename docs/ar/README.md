@@ -14,7 +14,7 @@
 
 **أُنجزت:** [EXP-003 — سجل التداول والمخاطر](../../experiments/EXP-003-history-risk/README.md). أُنجز المثال الاصطناعي وتحققت الحسابات مستقلًا. [النتيجة والتصحيحات](../../experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [نتائج تحليل الهامش](../../experiments/EXP-004-margin-analysis/RESULTS.ar.md)، حسابات تعليمية صحيحة مع تصحيحات؛ هامش الحساب الفعلي غير متحقق. **اكتملت EXP-005:** [نتائج التحذير وشرط التصفية](../../experiments/EXP-005-margin-call/RESULTS.ar.md)، ضمن نموذج اصطناعي. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](../../experiments/EXP-006-indicator-demo/RESULTS.ar.md). اكتملت [مراجعة المرحلة الأولى](../../reports/weekly/WEEK-01.ar.md). اكتملت مواصفات الإشارة في EXP-007؛ ننتقل إلى تصميم المؤشر. تحسين استراتيجية MASK DOW ENGINE مؤجل.
 
-**تحديث المرحلة التالية:** اكتملت [EXP-007 — مواصفات الإشارة](../../experiments/EXP-007-signal-specification/SPEC-AND-RESULTS.ar.md). الحالي [EXP-008 — تصميم المؤشر](../../experiments/EXP-008-mql5-indicator/README.md)، Test A جاهز؛ لم يُكتب الكود بعد.
+**تحديث المرحلة التالية:** اكتملت [EXP-007 — مواصفات الإشارة](../../experiments/EXP-007-signal-specification/SPEC-AND-RESULTS.ar.md). الحالي [EXP-008 — تصميم المؤشر](../../experiments/EXP-008-mql5-indicator/README.md)، اكتمل المصدر والتجميع والاختبارات الاصطناعية (24 PASS)، مع عرض بصري أولي وحدود تحقق حي. التالي تحديد مواصفات EA تعليمي.
 
 ## كيف تستخدم المشروع؟
 
