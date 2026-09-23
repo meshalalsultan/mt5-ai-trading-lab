@@ -1,0 +1,5 @@
+;EXP-009 R5 close-fix re-integration - input parameters (overrides)
+;NEW dedicated run-log for THIS run (integration2); prior logs untouched.
+InpDeviation=50
+InpMagic=59442
+InpLogFile=MASK_EDU_EXP009\exp009_b2_runlog_integration2.csv
