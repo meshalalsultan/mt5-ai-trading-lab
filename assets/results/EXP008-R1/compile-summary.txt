@@ -1,0 +1,9 @@
+Extracted final result lines from local R1 logs; full logs are not reproduced (local paths omitted).
+v01_indicator_r1.log
+Result: 0 errors, 0 warnings, 797 ms elapsed, cpu='X64 Regular'
+
+test_script_r1.log
+Result: 0 errors, 0 warnings, 1355 ms elapsed, cpu='X64 Regular'
+
+test_runner_r1.log
+Result: 0 errors, 0 warnings, 1363 ms elapsed, cpu='X64 Regular'
