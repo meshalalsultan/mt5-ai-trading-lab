@@ -22,7 +22,9 @@
 
 **EXP-002 أُغلقت بحدود:** نُشر [تقرير التحقق العربي](experiments/EXP-002-multi-timeframe-analysis/RESULTS.ar.md) وملفات R02. نتائج القاعدة: H4/H1 بنية مختلطة، M15 صاعد في اللقطة المحددة. اللقطة الأصلية غير محفوظة.
 
-**اكتملت:** [EXP-003 — سجل التداول والمخاطر](experiments/EXP-003-history-risk/README.md)، تمرين اصطناعي أُنجز وتحققت حساباته مع تصحيح تفسير أثر التمويل. [نتائجه](experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [تحليل الهامش ونتائجه](experiments/EXP-004-margin-analysis/RESULTS.ar.md)، ضمن نموذج تعليمي مع تصحيحات وحدود. **اكتملت EXP-005:** [التحذير وشرط التصفية](experiments/EXP-005-margin-call/RESULTS.ar.md) ضمن نموذج اصطناعي متحقق حسابيًا. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](experiments/EXP-006-indicator-demo/RESULTS.ar.md). نُشرت [مراجعة المرحلة الأولى](reports/weekly/WEEK-01.ar.md). التالي مهمة 8: مواصفات استراتيجية تعليمية قبل الكود. تحسين الاستراتيجيات مؤجل.
+**اكتملت:** [EXP-003 — سجل التداول والمخاطر](experiments/EXP-003-history-risk/README.md)، تمرين اصطناعي أُنجز وتحققت حساباته مع تصحيح تفسير أثر التمويل. [نتائجه](experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [تحليل الهامش ونتائجه](experiments/EXP-004-margin-analysis/RESULTS.ar.md)، ضمن نموذج تعليمي مع تصحيحات وحدود. **اكتملت EXP-005:** [التحذير وشرط التصفية](experiments/EXP-005-margin-call/RESULTS.ar.md) ضمن نموذج اصطناعي متحقق حسابيًا. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](experiments/EXP-006-indicator-demo/RESULTS.ar.md). نُشرت [مراجعة المرحلة الأولى](reports/weekly/WEEK-01.ar.md). اكتملت مواصفات الإشارة في EXP-007؛ ننتقل إلى تصميم المؤشر. تحسين الاستراتيجيات مؤجل.
+
+**تحديث المرحلة التالية:** اكتملت [EXP-007 — مواصفات الإشارة](experiments/EXP-007-signal-specification/SPEC-AND-RESULTS.ar.md). الحالي [EXP-008 — تصميم المؤشر](experiments/EXP-008-mql5-indicator/README.md)، Test A جاهز؛ لم يُكتب الكود بعد.
 
 ## نظامنا
 
@@ -48,7 +50,7 @@ Maintained by **Meshal Al-Sultan · Mask Trader**.
 
 This repository is the source of truth for a professional and commercial transition into AI Trading Solutions. It connects reproducible experiments to technical demonstrations, portfolio case studies, broker services, and potential educational products.
 
-> **Current status: EXP-001 and EXP-002 scoped reviews completed with limitations. EXP-003 synthetic arithmetic independently verified with interpretation corrections; EXP-004 synthetic margin arithmetic verified with limitations. EXP-005 synthetic margin thresholds verified. EXP-006 closed as a manual demo with partial verification. WEEK-01 phase review published; strategy specification is next.**
+> **Current status: EXP-001 and EXP-002 scoped reviews completed with limitations. EXP-003 synthetic arithmetic independently verified with interpretation corrections; EXP-004 synthetic margin arithmetic verified with limitations. EXP-005 synthetic margin thresholds verified. EXP-006 closed as a manual demo with partial verification. WEEK-01 phase review published; EXP-007 signal specification reviewed; EXP-008 indicator design is next.**
 > The review documents missing-data handling and the limits of self-audit. Populated-history diagnostic accuracy remains untested. [Read the methodology and evidence limits](experiments/EXP-001-account-diagnostic/RESULTS.md).
 
 ## Start here
