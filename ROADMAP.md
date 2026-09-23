@@ -36,3 +36,7 @@ Planning baseline from the project conversation. All delivery targets below are 
 | 30 | Demo day | Final demonstration and retrospective |
 
 Review priorities at daily close and at each weekly review. Record changes and reasons in the daily/weekly logs. The four tracks are Career, Authority, B2B, and Revenue; evidence quality determines progress.
+
+## Progress checkpoint — 2026-09-23
+
+Tasks 1–9 have scoped published outcomes; EXP-009 covers tasks 10–12 with R5 limited integration, not strategy validation. Next is task 13: [EXP-010](experiments/EXP-010-backtest-analysis/README.md), analysis of the existing Run 2 report. Optimization remains deferred; no claim of elapsed calendar days.
