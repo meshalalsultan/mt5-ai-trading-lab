@@ -1,0 +1,31 @@
+1788220800	EXP009-B2-R5	XAUUSD	1788220800	RUN|START	ver=EXP009-B2-R5 pkg=EXP009-B1-R5-CLOSEFIX magic=59442 dev=50 fill=IOC vmin=0.01 vstep=0.01 mm=2 tester=1 opt=0 sym=XAUUSD per=16385 rangeFrom=1788217200	
+1788220800	EXP009-B2-R5	XAUUSD	1788224400	STATE|START|reference-bar-no-trade	st=0 bar=1788217200 dir=0 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=0 sends=0
+1788220800	EXP009-B2-R5	XAUUSD	1788246000	STATE|OPEN|order-sent	st=0 bar=1788242400 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 sends=0
+1788220800	EXP009-B2-R5	XAUUSD	1788246000	INTENT|OPEN	st=0 bar=1788242400 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 dir=-1 vol=0.01 pos=0
+1788220800	EXP009-B2-R5	XAUUSD	1788246000	SEND|OPEN	t=1788246000 pos=0 vol=0.01 step=0.01 ask=4436.9 bid=4436.69 dev=50 fill=IOC	call=1 retcode=10009 order=2 deal=2 vol=0.01 price=4436.69
+1788220800	EXP009-B2-R5	XAUUSD	1788246000	STATE|OPEN|CONFIRMED	st=3 bar=1788242400 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=2 sends=1
+1788220800	EXP009-B2-R5	XAUUSD	1788361200	STATE|CLOSE|opposite-requested	st=2 bar=1788357600 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 sends=1
+1788220800	EXP009-B2-R5	XAUUSD	1788361200	INTENT|CLOSE	st=2 bar=1788357600 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 dir=-1 vol=0.01 pos=2
+1788220800	EXP009-B2-R5	XAUUSD	1788361200	SEND|CLOSE	t=1788361200 pos=2 vol=0.01 step=0.01 ask=4332.54 bid=4332.33 dev=50 fill=IOC	call=1 retcode=10009 order=3 deal=3 vol=0.01 price=4332.54
+1788220800	EXP009-B2-R5	XAUUSD	1788361200	STATE|CLOSE|CONFIRMED-FLAT	st=4 bar=1788357600 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=0 sends=2
+1788220800	EXP009-B2-R5	XAUUSD	1788505200	STATE|OPEN|order-sent	st=0 bar=1788501600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 sends=2
+1788220800	EXP009-B2-R5	XAUUSD	1788505200	INTENT|OPEN	st=0 bar=1788501600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 dir=-1 vol=0.01 pos=0
+1788220800	EXP009-B2-R5	XAUUSD	1788505200	SEND|OPEN	t=1788505200 pos=0 vol=0.01 step=0.01 ask=4467.22 bid=4467.01 dev=50 fill=IOC	call=1 retcode=10009 order=4 deal=4 vol=0.01 price=4467.01
+1788220800	EXP009-B2-R5	XAUUSD	1788505200	STATE|OPEN|CONFIRMED	st=3 bar=1788501600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=2 sends=3
+1788220800	EXP009-B2-R5	XAUUSD	1788508800	STATE|CLOSE|opposite-requested	st=2 bar=1788505200 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 sends=3
+1788220800	EXP009-B2-R5	XAUUSD	1788508800	INTENT|CLOSE	st=2 bar=1788505200 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 dir=-1 vol=0.01 pos=4
+1788220800	EXP009-B2-R5	XAUUSD	1788508800	SEND|CLOSE	t=1788508800 pos=4 vol=0.01 step=0.01 ask=4473.93 bid=4473.72 dev=50 fill=IOC	call=1 retcode=10009 order=5 deal=5 vol=0.01 price=4473.93
+1788220800	EXP009-B2-R5	XAUUSD	1788508800	STATE|CLOSE|CONFIRMED-FLAT	st=4 bar=1788505200 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=0 sends=4
+1788220800	EXP009-B2-R5	XAUUSD	1788512400	STATE|OPEN|order-sent	st=0 bar=1788508800 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 sends=4
+1788220800	EXP009-B2-R5	XAUUSD	1788512400	INTENT|OPEN	st=0 bar=1788508800 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 dir=-1 vol=0.01 pos=0
+1788220800	EXP009-B2-R5	XAUUSD	1788512400	SEND|OPEN	t=1788512400 pos=0 vol=0.01 step=0.01 ask=4472.26 bid=4472.05 dev=50 fill=IOC	call=1 retcode=10009 order=6 deal=6 vol=0.01 price=4472.05
+1788220800	EXP009-B2-R5	XAUUSD	1788512400	STATE|OPEN|CONFIRMED	st=3 bar=1788508800 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=2 sends=5
+1788220800	EXP009-B2-R5	XAUUSD	1788519600	STATE|CLOSE|opposite-requested	st=2 bar=1788516000 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 sends=5
+1788220800	EXP009-B2-R5	XAUUSD	1788519600	INTENT|CLOSE	st=2 bar=1788516000 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=4 dir=-1 vol=0.01 pos=6
+1788220800	EXP009-B2-R5	XAUUSD	1788519600	SEND|CLOSE	t=1788519600 pos=6 vol=0.01 step=0.01 ask=4483.61 bid=4483.4 dev=50 fill=IOC	call=1 retcode=10009 order=7 deal=7 vol=0.01 price=4483.61
+1788220800	EXP009-B2-R5	XAUUSD	1788519600	STATE|CLOSE|CONFIRMED-FLAT	st=4 bar=1788516000 dir=1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=0 sends=6
+1788220800	EXP009-B2-R5	XAUUSD	1788523200	STATE|OPEN|order-sent	st=0 bar=1788519600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 sends=6
+1788220800	EXP009-B2-R5	XAUUSD	1788523200	INTENT|OPEN	st=0 bar=1788519600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=3 dir=-1 vol=0.01 pos=0
+1788220800	EXP009-B2-R5	XAUUSD	1788523200	SEND|OPEN	t=1788523200 pos=0 vol=0.01 step=0.01 ask=4477.96 bid=4477.75 dev=50 fill=IOC	call=1 retcode=10009 order=8 deal=8 vol=0.01 price=4477.75
+1788220800	EXP009-B2-R5	XAUUSD	1788523200	STATE|OPEN|CONFIRMED	st=3 bar=1788519600 dir=-1 can=1 step=0.01 posQ=0 actQ=0 histQ=0 dealQ=0	st=2 sends=7
+1788220800	EXP009-B2-R5	XAUUSD	1788566219	RUN|END	sends=7 ntdeals=2343724 reason=1	
