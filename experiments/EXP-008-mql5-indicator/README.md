@@ -1,10 +1,10 @@
-# EXP-008 — تصميم وبناء مؤشر MQL5 تعليمي
-Prepared: 2026-09-23
-Status: Test A design prompt prepared; operator response pending.
+# EXP-008 — مؤشر MQL5 تعليمي
+Date: 2026-09-23
+Status: Build and synthetic tests completed; initial visual demonstration only.
 
-[طلب التصميم بالعربية](../../prompts/mql5-development/INDICATOR-DESIGN-v0.1.ar.md)
-[مواصفات وحالات EXP-007](../EXP-007-signal-specification/SPEC-AND-RESULTS.ar.md)
+[التقرير العربي وحدود التحقق](RESULTS.ar.md)
+[Source and installation](../../mql5/indicators/MASK_SMA20_CROSS_EDU/README.md)
+[Raw synthetic results](../../assets/results/EXP008-R1/test-results.txt)
 
-Scope: closed-bar SMA20 crossing arrows, no trade execution.
-A: design and numeric-policy review. B: implementation and compilation after design decisions. C: tests and evidence review.
-No MQL5 source, compilation, terminal installation or test pass is claimed yet.
+Three R1 compilation logs report zero errors/warnings. Operator ran the TEST script; directly read output reports 24 PASS, 0 FAIL, 0 SKIP (including result-file status). J matched the no-signal reference with diff=0 in this run.
+Screenshot reviewed in conversation shows arrows; numerical live-buffer and multi-update validation remain incomplete. No profitability claim.
