@@ -1,0 +1,35 @@
+RUN|EXP009-FILL-TEST-R5|ver=R5|runid=1788220800
+INFO|constants|fillFOK=1|fillIOC=2|exeREQ=0|exeINST=1|exeMRK=2|exeXCH=3
+INFO|deal-constants|entryIn=0|entryOut=1|entryInOut=2|entryOutBy=3
+INFO|env|real-symbol wrapper ok=1 fill=IOC reason= symbol=XAUUSD period=16385
+INFO|path|[local common-files path redacted]
+TEST|T01|PASS|fill-decision|exp=mode=0 f=0 i=0 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T02|PASS|fill-decision|exp=mode=0 f=0 i=1 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T03|PASS|fill-decision|exp=mode=0 f=1 i=0 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T04|PASS|fill-decision|exp=mode=1 f=0 i=0 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T05|PASS|fill-decision|exp=mode=1 f=1 i=1 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T06|PASS|fill-decision|exp=mode=2 f=1 i=0 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T07|PASS|fill-decision|exp=mode=2 f=0 i=1 -> ok=1 fill=IOC reason=|act=ok=1 fill=IOC reason=
+TEST|T08|PASS|fill-decision|exp=mode=2 f=1 i=1 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T09|PASS|fill-decision|exp=mode=2 f=0 i=0 -> ok=0 fill= reason=market-mode-needs-FOK-or-IOC-flag|act=ok=0 fill=FOK reason=market-mode-needs-FOK-or-IOC-flag
+TEST|T10|PASS|fill-decision|exp=mode=3 f=1 i=0 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T11|PASS|fill-decision|exp=mode=3 f=0 i=1 -> ok=1 fill=IOC reason=|act=ok=1 fill=IOC reason=
+TEST|T12|PASS|fill-decision|exp=mode=3 f=1 i=1 -> ok=1 fill=FOK reason=|act=ok=1 fill=FOK reason=
+TEST|T13|PASS|fill-decision|exp=mode=3 f=0 i=0 -> ok=1 fill=RETURN reason=|act=ok=1 fill=RETURN reason=
+TEST|T14|PASS|fill-decision|exp=mode=99 f=1 i=0 -> ok=0 fill= reason=unknown-exec-mode|act=ok=0 fill=FOK reason=unknown-exec-mode
+TEST|T15|PASS|wrapper-read-failure|exp=ok=0 reason=filling-mode-unreadable|exemode-unreadable|act=ok=0 reason=filling-mode-unreadable fill=FOK
+TEST|T20|PASS|balance-deal-excluded-no-block|exp=class=NONTRADING_EXCLUDED|why=balance-excluded|act=class=NONTRADING_EXCLUDED|why=balance-excluded
+TEST|T21|PASS|commission-deal-excluded-no-block|exp=class=NONTRADING_EXCLUDED|why=commission-excluded|act=class=NONTRADING_EXCLUDED|why=commission-excluded
+TEST|T22|PASS|buy-inout-blocks|exp=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal|act=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal
+TEST|T23|PASS|sell-inout-blocks|exp=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal|act=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal
+TEST|T24|PASS|buy-outby-blocks|exp=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal|act=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal
+TEST|T25|PASS|sell-outby-blocks|exp=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal|act=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal
+TEST|T26|PASS|buy-unknown-entry-blocks|exp=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal|act=class=UNKNOWN_BLOCK|why=unsupported-entry-for-trading-deal
+TEST|T27|PASS|buy-in-trading|exp=class=TRADE_BUY|why=|act=class=TRADE_BUY|why=
+TEST|T28|PASS|sell-out-trading|exp=class=TRADE_SELL|why=|act=class=TRADE_SELL|why=
+TEST|T29|PASS|unknown-enum-type-blocks|exp=class=UNKNOWN_BLOCK|why=unknown-deal-type|act=class=UNKNOWN_BLOCK|why=unknown-deal-type
+TEST|T30|PASS|injected-type-read-failure-blocks|exp=class=UNKNOWN_BLOCK|why=deal-type-read-failed|act=class=UNKNOWN_BLOCK|why=deal-type-read-failed
+TEST|T31|PASS|injected-entry-read-failure-blocks|exp=class=UNKNOWN_BLOCK|why=deal-entry-read-failed|act=class=UNKNOWN_BLOCK|why=deal-entry-read-failed
+TEST|T32|PASS|injected-both-read-failure-blocks|exp=class=UNKNOWN_BLOCK|why=deal-type-read-failed|act=class=UNKNOWN_BLOCK|why=deal-type-read-failed
+RESULT|PASS|logic-tests=28|pass=28|fail=0|info=4
+END|r5
