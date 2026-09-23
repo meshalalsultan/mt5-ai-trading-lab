@@ -19,7 +19,8 @@ Suggested labels (create when needed): experiment, documentation, prompt, mql5, 
 | EXP-006 | [Indicator discovery](experiments/EXP-006-indicator-demo/README.md) | Completed adapted scope | Medium | Meshal Al-Sultan | After EXP-005 | Manual demo; see documented limitations |
 | CS-001 | Account diagnostic case study | Backlog | Medium | Meshal Al-Sultan | After validation | Evaluate EXP-001 evidence |
 | WEEK-01 | [Phase review](reports/weekly/WEEK-01.ar.md) | Completed | Medium | Meshal Al-Sultan | 2026-09-23 | Six scoped experiments reviewed |
-| EXP-007 | Educational strategy specification | Today — specification next | Medium | Meshal Al-Sultan | Plan task 8 | Define rules before code; no execution yet |
+| EXP-007 | [Signal specification](experiments/EXP-007-signal-specification/README.md) | Completed scoped review | Medium | Meshal Al-Sultan | Plan task 8 | No full trading strategy or MQL5 implementation |
+| EXP-008 | [MQL5 indicator](experiments/EXP-008-mql5-indicator/README.md) | Today — Test A prepared | Medium | Meshal Al-Sultan | Plan task 9 | Review design and numeric policy before code |
 
 ## EXP-001 closeout
 
