@@ -11,4 +11,7 @@
 | [EXP-007](EXP-007-signal-specification/README.md) | Signal specification | Closed scoped review | A–J classifications reviewed; J derivation corrected; no MQL5 implementation |
 | [EXP-008](EXP-008-mql5-indicator/README.md) | Educational MQL5 indicator | Build and synthetic tests complete; live validation limited | Source and 24 PASS published; initial visual demo |
 
+| [EXP-009](EXP-009-educational-ea/README.md) | Educational EA | Scoped integration passed | R5: core 27/0, fill/deal 28/0; SELL integration only |
+| [EXP-010](EXP-010-backtest-analysis/README.md) | Existing backtest report analysis | Planned, not executed | Next: Test A data inventory |
+
 Copy [TEMPLATE.md](TEMPLATE.md) into a new EXP-NNN descriptive folder. Add evidence only after execution; update this register when the status changes.
