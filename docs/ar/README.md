@@ -12,7 +12,9 @@
 
 **اكتملت EXP-002 بحدود:** [التقرير العربي](../../experiments/EXP-002-multi-timeframe-analysis/RESULTS.ar.md) يضم التحقق من R02 وجميع النقاط المحلية. اللقطة الأصلية المفقودة لا تزال غير قابلة للمقارنة.
 
-**أُنجزت:** [EXP-003 — سجل التداول والمخاطر](../../experiments/EXP-003-history-risk/README.md). أُنجز المثال الاصطناعي وتحققت الحسابات مستقلًا. [النتيجة والتصحيحات](../../experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [نتائج تحليل الهامش](../../experiments/EXP-004-margin-analysis/RESULTS.ar.md)، حسابات تعليمية صحيحة مع تصحيحات؛ هامش الحساب الفعلي غير متحقق. **اكتملت EXP-005:** [نتائج التحذير وشرط التصفية](../../experiments/EXP-005-margin-call/RESULTS.ar.md)، ضمن نموذج اصطناعي. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](../../experiments/EXP-006-indicator-demo/RESULTS.ar.md). اكتملت [مراجعة المرحلة الأولى](../../reports/weekly/WEEK-01.ar.md). ننتقل إلى مهمة 8: مواصفات استراتيجية تعليمية قبل الكود. تحسين استراتيجية MASK DOW ENGINE مؤجل.
+**أُنجزت:** [EXP-003 — سجل التداول والمخاطر](../../experiments/EXP-003-history-risk/README.md). أُنجز المثال الاصطناعي وتحققت الحسابات مستقلًا. [النتيجة والتصحيحات](../../experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [نتائج تحليل الهامش](../../experiments/EXP-004-margin-analysis/RESULTS.ar.md)، حسابات تعليمية صحيحة مع تصحيحات؛ هامش الحساب الفعلي غير متحقق. **اكتملت EXP-005:** [نتائج التحذير وشرط التصفية](../../experiments/EXP-005-margin-call/RESULTS.ar.md)، ضمن نموذج اصطناعي. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](../../experiments/EXP-006-indicator-demo/RESULTS.ar.md). اكتملت [مراجعة المرحلة الأولى](../../reports/weekly/WEEK-01.ar.md). اكتملت مواصفات الإشارة في EXP-007؛ ننتقل إلى تصميم المؤشر. تحسين استراتيجية MASK DOW ENGINE مؤجل.
+
+**تحديث المرحلة التالية:** اكتملت [EXP-007 — مواصفات الإشارة](../../experiments/EXP-007-signal-specification/SPEC-AND-RESULTS.ar.md). الحالي [EXP-008 — تصميم المؤشر](../../experiments/EXP-008-mql5-indicator/README.md)، Test A جاهز؛ لم يُكتب الكود بعد.
 
 ## كيف تستخدم المشروع؟
 
