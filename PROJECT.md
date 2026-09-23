@@ -15,7 +15,8 @@ Suggested labels (create when needed): experiment, documentation, prompt, mql5, 
 | EXP-002 | Market and multi-timeframe analysis | Completed with limitations | Medium | Meshal Al-Sultan | 2026-09-22 | R02 report and data published |
 | EXP-003 | History and risk: synthetic exercise | Completed with corrections | Medium | Meshal Al-Sultan | After EXP-002 | Arithmetic verified; see results |
 | EXP-004 | [Margin analysis](experiments/EXP-004-margin-analysis/RESULTS.ar.md) | Completed educational scope with limitations | Medium | Meshal Al-Sultan | 2026-09-22 | Actual account margin remains unverified |
-| EXP-005 | Margin Call / Stop Out investigation | Backlog | Medium | Meshal Al-Sultan | After EXP-004 | Define synthetic inputs and rules; not executed |
+| EXP-005 | [Margin Call / Stop Out](experiments/EXP-005-margin-call/RESULTS.ar.md) | Completed synthetic scope with limitations | Medium | Meshal Al-Sultan | 2026-09-23 | Arithmetic verified; no actual liquidation |
+| EXP-006 | [Indicator discovery](experiments/EXP-006-indicator-demo/README.md) | Today — Test A prepared | Medium | Meshal Al-Sultan | After EXP-005 | Run read-only discovery; results pending |
 | CS-001 | Account diagnostic case study | Backlog | Medium | Meshal Al-Sultan | After validation | Evaluate EXP-001 evidence |
 | WEEK-01 | Weekly research review | Backlog | Medium | Meshal Al-Sultan | Day 7 | Aggregate daily logs |
 
