@@ -1,3 +1,12 @@
-# Product research
+# منتجات Mask Trader
+[الأهداف](../docs/ar/GOALS.md) · [لوحة العمل](../PROJECT.md)
 
-Concepts only: prompt pack, course and workshop. Promote an idea only after experiment evidence, audience feedback and a scoped pilot. No products launched or revenue claimed.
+## المنتج النشط الوحيد
+[MT5 AI Prompt Pack — إعداد جلسة التداول ومراجعتها](prompt-pack/PRODUCT-PLAN.ar.md).
+
+الحالة: خطة وموجز منشوران، حزمة كاملة وتجربة مستخدم وبيع لم تكتمل. المخرج المخطط: ستة طلبات، دليل، قالب، مثال، فيديو وصفحة عرض. دورة الإنتاج الأولى خمسة أيام عمل / 25 ساعة.
+
+## ما بعده
+تعليم وتخصيص، ثم ورشة/دورة وعرض B2B مشتق من الاستخدام. خدمات المؤشرات والتشخيص والأفلييت مؤجلة؛ وجود المجلدات لا يعني إطلاق خدمات.
+
+لا مبيعات أو عوائد موثقة حاليًا. قيمة العرض التجاري في التطبيق والأمثلة والتعليم والدعم؛ لا ادعاء حصرية محتوى المستودع العام.
