@@ -1,39 +1,25 @@
-# Execution board
+# لوحة التنفيذ — 2026-09-24
+[الأهداف](docs/ar/GOALS.md) · [خطة المنتج](products/prompt-pack/PRODUCT-PLAN.ar.md)
 
-This file is the usable project-board fallback. A live GitHub Project is not claimed.
+**منتج نشط واحد: إعداد جلسة التداول ومراجعتها بالذكاء الاصطناعي.**
+هذه لوحة ملفات، وليست ادعاء بإنشاء GitHub Project. حدود الوقت تخص الإنتاج؛ انتظار مشاركين لا يعني إعادة فتح البحث التقني.
 
-Columns: **Backlog → Today → Testing → Documenting → Product Candidate → Completed**.
-Product Candidate is optional; completed research need not become a product.
-Move an item into Testing when execution starts, Documenting when outputs exist, and Completed only after the workflow checklist is met.
+| الترتيب | المهمة | المالك | الحالة | حد الوقت/موعد الدورة | علامة الاكتمال |
+|---|---|---|---|---|---|
+| 0 | تصحيح الأهداف والخطة | المساعد | مكتمل كتخطيط | 24 سبتمبر | أهداف وخطة وموجز منشورة |
+| 1 | الحزمة الستية ودليل البدء | المساعد؛ مراجعة مشعل | التالي | اليوم 1: 5س | مسودة كاملة قابلة للاستخدام |
+| 2 | مثال ومراجعة محتوى | المساعد + مشعل | مخطط | اليوم 2: 5س | مثال محفوظ وفروق واضحة عن الطلب العام |
+| 3 | فيديو وصفحة عرض | المساعد يكتب؛ مشعل يسجل ويعتمد | مخطط | اليوم 3: 5س | عرض ومادة جاهزة للنشر |
+| 4 | تجربة 3 مستخدمين إن توفروا | مشعل ينسق؛ المساعد يلخص | مخطط | اليوم 4: 5س | سجل استخدام أو انتظار معلن |
+| 5 | تحسين واحد وعرض تجاري وملف أعمال | المساعد + مشعل | مخطط | اليوم 5: 5س | قرار عرض/تقليص/توقف موثق |
 
-Suggested fields: ID, owner, status, priority, target date, experiment link, evidence, next action.
-Suggested labels (create when needed): experiment, documentation, prompt, mql5, case-study, product-candidate, blocked.
+## متوقف أو مؤجل
+- التحقق الموسع لـEXP-009 R5، تحسين المعاملات، متابعة عيوب المساعد: **متوقف بتوجيه المالك**؛ لا تشغيل مطلوب.
+- ملحق U1/U2/U3: مرجع مساعد، لا دورات اختبارات إضافية.
+- الورشة الكاملة والدورة وخدمات التشخيص وصناعة الأدوات والأفلييت: أفكار مؤجلة إلى ما بعد تسليم الأصل الأول.
+- التواصل والنشر التجاري والتحصيل: تجهيز المواد لا يعني إرسالًا أو تحصيلًا تلقائيًا.
 
-| ID | Task | Status | Priority | Owner | Target | Next action |
-|---|---|---|---|---|---|---|
-| EXP-001 | Trading Account Diagnostic | Completed with limitations | High | Meshal Al-Sultan | 2026-09-22 | Empty-input review complete; original hypothesis deferred |
-| EXP-002 | Market and multi-timeframe analysis | Completed with limitations | Medium | Meshal Al-Sultan | 2026-09-22 | R02 report and data published |
-| EXP-003 | History and risk: synthetic exercise | Completed with corrections | Medium | Meshal Al-Sultan | After EXP-002 | Arithmetic verified; see results |
-| EXP-004 | [Margin analysis](experiments/EXP-004-margin-analysis/RESULTS.ar.md) | Completed educational scope with limitations | Medium | Meshal Al-Sultan | 2026-09-22 | Actual account margin remains unverified |
-| EXP-005 | [Margin Call / Stop Out](experiments/EXP-005-margin-call/RESULTS.ar.md) | Completed synthetic scope with limitations | Medium | Meshal Al-Sultan | 2026-09-23 | Arithmetic verified; no actual liquidation |
-| EXP-006 | [Indicator discovery](experiments/EXP-006-indicator-demo/README.md) | Completed adapted scope | Medium | Meshal Al-Sultan | After EXP-005 | Manual demo; see documented limitations |
-| CS-001 | Account diagnostic case study | Backlog | Medium | Meshal Al-Sultan | After validation | Evaluate EXP-001 evidence |
-| WEEK-01 | [Phase review](reports/weekly/WEEK-01.ar.md) | Completed | Medium | Meshal Al-Sultan | 2026-09-23 | Six scoped experiments reviewed |
-| EXP-007 | [Signal specification](experiments/EXP-007-signal-specification/README.md) | Completed scoped review | Medium | Meshal Al-Sultan | Plan task 8 | No full trading strategy or MQL5 implementation |
-| EXP-008 | [MQL5 indicator](experiments/EXP-008-mql5-indicator/README.md) | Completed educational build with limitations | Medium | Meshal Al-Sultan | Plan task 9 | Source/tests published; live numeric validation remains open |
+## ما أنجزناه سابقًا
+EXP-001…009 لها مواد منشورة بحدودها؛ [سجل التجارب](experiments/README.md). تقارير EXP-010 ونسخ الحزمة وقبولها الاصطناعي وردت من المستخدم لاحقًا؛ لا تعادل إثبات الطلب التجاري. لم يُنقل هنا كل دليل محلي، ولم تُعد اختبارات.
 
-| EXP-009 | [Educational EA](experiments/EXP-009-educational-ea/README.md) | Completed scoped integration | High | Meshal Al-Sultan | Plan tasks 10–12 | Coverage limits retained; R5 published |
-| EXP-010 | [Backtest analysis](experiments/EXP-010-backtest-analysis/README.md) | Today: planned | High | Meshal Al-Sultan | Plan task 13 | Inventory existing Run 2 data; no new run |
-
-## EXP-001 closeout
-
-[Issue #1](https://github.com/meshalalsultan/mt5-ai-trading-lab/issues/1) tracks the scoped empty-input review.
-[Findings](experiments/EXP-001-account-diagnostic/RESULTS.md) describe methodology, remaining errors and evidence limits.
-
-- [x] Operator-supplied reports reviewed
-- [x] Manual-check attestation distinguished from direct evidence
-- [x] Failures and limitations documented
-- [x] Daily log and register updated
-- [ ] Original populated-history diagnostic hypothesis tested (deferred)
-
-Completion refers to the adapted review, not full validation of diagnostic capability.
+أي «التالي» قديم داخل تقرير تاريخي ليس تكليفًا نشطًا. لا نفتح مهمة جديدة دون مستخدم ومخرج وحد وقت وعلاقة بهدف.
