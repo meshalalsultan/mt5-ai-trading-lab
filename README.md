@@ -1,109 +1,40 @@
-<div dir="rtl">
+# MASK AI TRADING 30 — Mask Trader
+**مشعل السلطان | توظيف الذكاء الاصطناعي لخدمة المتداول وبناء منتجات وتعليم وحلول للشركات.**
 
-# مختبر الذكاء الاصطناعي للتداول — MT5 AI Trading Lab
+[الأهداف المعتمدة](docs/ar/GOALS.md) · [خطة المنتج الأول](products/prompt-pack/PRODUCT-PLAN.ar.md) · [المهام الحالية](PROJECT.md) · [الخطة الأصلية ذات 30 مرحلة](docs/ar/ROADMAP.md)
 
-**مشروع مشعل السلطان · Mask Trader للتحول المهني والتجاري في حلول الذكاء الاصطناعي للتداول.**
+## نقطة البداية — 24 سبتمبر 2026
+العمل الحالي: **MT5 AI Prompt Pack — إعداد جلسة التداول ومراجعتها**. المخرج: حزمة عربية عملية، مثال مشروح، ورقة جلسة، فيديو وصفحة عرض وتجربة مستخدم محدودة.
 
-هنا نحفظ خطة العمل والتجارب والأدلة والتقارير. هدفنا أن نبني مهارات وأعمالًا يمكن عرضها على الشركات، ثم نختبر فرص التعليم والاستشارات والمنتجات.
+**الحالة:** خطة المنتج وموجز المثال منشوران؛ الحزمة الكاملة وتجربة المستخدم والبيع لم تكتمل. خمسة أيام عمل / 25 ساعة إنتاج حد للدورة الأولى، وليست ادعاءً بالإنجاز.
 
-## ابدأ من هنا بالعربية
+أُوقف التوسع في اختبارات المساعد وإصلاحات المحوّل والتحقق الموسع لـEXP-009 بتوجيه صاحب المشروع. الأدلة القديمة محفوظة في مجلداتها؛ لا تحتاج استكمال كل نقص كي ننتقل إلى الاستخدام المفيد.
 
-| ما الذي تريد فهمه؟ | الصفحة |
+## لماذا نفعل ذلك؟
+| المسار | المخرج المستهدف |
 |---|---|
-| أين وصلنا؟ وما معنى المجلدات والمصطلحات؟ | [دليل المشروع العربي](docs/ar/README.md) |
-| ماذا أفعل من بداية اليوم إلى إغلاقه؟ | [نظام العمل اليومي](docs/ar/WORKFLOW.md) |
-| ما ترتيب الرحلة؟ | [خطة 30 يومًا](docs/ar/ROADMAP.md) |
-| ماذا حدث في التجربة الأولى؟ | [شرح EXP-001 ونتائجها](docs/ar/EXP-001.md) |
-| كيف أوثّق تجربة أو تقريرًا أو نسخة طلب؟ | [القوالب العربية](docs/ar/TEMPLATES.md) |
+| Career | عرض أعمال وسيرة يدعمان AI Trading Solutions Consultant |
+| Authority | أمثلة وفيديوهات ودراسات استخدام مفهومة |
+| B2B | عرض تدريب وتطبيق للشركات والوسطاء |
+| Revenue | منتجات وتعليم وتخصيص وخدمات Mask Trader |
 
-## وضعنا الحالي
+**Learn → Test → Build → Validate → Document → Demonstrate → Publish → Monetize**
 
-**EXP-001 مغلقة بحدود:** راجعنا التعامل مع غياب بيانات التداول وحدود التدقيق الذاتي. لم نثبت بعد دقة تشخيص حساب يحتوي سجل صفقات فعليًا.
+نقيس فائدة الاستخدام ووضوح المخرج وسهولة تطبيقه ثم الطلب التجاري. لا نقيس التقدم بعدد الاختبارات، ولا ندعي أرباح تداول أو دخلًا من ملفات لم تُبع.
 
-**EXP-002 أُغلقت بحدود:** نُشر [تقرير التحقق العربي](experiments/EXP-002-multi-timeframe-analysis/RESULTS.ar.md) وملفات R02. نتائج القاعدة: H4/H1 بنية مختلطة، M15 صاعد في اللقطة المحددة. اللقطة الأصلية غير محفوظة.
+## ما الذي لدينا؟
+- تجارب ومؤشر وEA تعليمي وأدلة تحقق محدودة منشورة؛ [سجل التجارب](experiments/README.md).
+- تقارير لاحقة قدمها المستخدم عن EXP-010 وحزمة الطلبات وجولاتها الاصطناعية؛ لا تمثل اختبارًا تجاريًا أو اعتمادًا في بيئة فعلية، ولا تعني هذه الصفحة أن ملفاتها الأصلية جميعًا رُفعت.
+- مواد يمكن تحويلها إلى أمثلة تعليمية. لا يوجد في الأدلة المعروضة ما يثبت مبيعات أو وظيفة أو عميل.
 
-**اكتملت:** [EXP-003 — سجل التداول والمخاطر](experiments/EXP-003-history-risk/README.md)، تمرين اصطناعي أُنجز وتحققت حساباته مع تصحيح تفسير أثر التمويل. [نتائجه](experiments/EXP-003-history-risk/RESULTS.ar.md). **اكتملت EXP-004:** [تحليل الهامش ونتائجه](experiments/EXP-004-margin-analysis/RESULTS.ar.md)، ضمن نموذج تعليمي مع تصحيحات وحدود. **اكتملت EXP-005:** [التحذير وشرط التصفية](experiments/EXP-005-margin-call/RESULTS.ar.md) ضمن نموذج اصطناعي متحقق حسابيًا. **أُغلقت EXP-006:** [عرض يدوي بتحقق جزئي](experiments/EXP-006-indicator-demo/RESULTS.ar.md). نُشرت [مراجعة المرحلة الأولى](reports/weekly/WEEK-01.ar.md). اكتملت مواصفات الإشارة والمؤشر التعليمي بحدود التحقق المعلنة. تحسين الاستراتيجيات مؤجل.
+## التنفيذ التالي
+صياغة الحزمة الستية ودليل البدء وفق [الخطة](products/prompt-pack/PRODUCT-PLAN.ar.md) و[المخرج الأول](products/prompt-pack/FIRST-DELIVERABLE.ar.md). لا تشغيل تقني جديد مطلوب من المستخدم الآن.
 
-**الحالي:** أُغلقت [EXP-009 — الإكسبرت التعليمي](experiments/EXP-009-educational-ea/README.md) بنجاح تكامل محدود: النواة 27/0، التعبئة والتصنيف 28/0، وأربعة دخول SELL وثلاثة إغلاقات استراتيجية مؤكدة. [دراسة الحالة](case-studies/CS-002-close-confirmation.ar.md). **التالي:** [EXP-010 — تحليل تقرير الاختبار](experiments/EXP-010-backtest-analysis/README.md)، Test A لجرد البيانات، دون تشغيل جديد أو تحسين.
+## التصفح
+[الدليل العربي](docs/ar/README.md) · [نظام العمل](docs/ar/WORKFLOW.md) · [المنتجات](products/README.md) · [دراسات الحالة](case-studies/README.md) · [حلول الشركات](broker-solutions/README.md) · [التقارير](reports/daily/README.md)
 
-## نظامنا
+## English overview
+Meshal Al-Sultan's practical AI trading solutions portfolio connects useful trader workflows with education, product delivery, B2B services and career opportunities. The active deliverable is an Arabic session-preparation prompt pack. Product demand, sales and career outcomes remain unverified. Platform debugging and expanded EA engineering are paused; historical experiments remain available with their original limitations.
 
-**نتعلم ← نختبر ← نبني ← نتحقق ← نوثق ← نعرض ← ننشر ← ندرس تحويل النتيجة إلى منتج أو خدمة.**
-
-كل يوم ينتهي بمخرج ملموس. نكتب ما فشل كما نكتب ما نجح. نفصل بين الحقيقة والاستنتاج والمعلومة غير المتاحة. وجود مجلد لمنتج أو أداة لا يعني أنها أُنجزت.
-
-## لغة العمل
-
-العربية هي مدخل العمل اليومي والشرح. القسم الإنجليزي أدناه والملفات الأصلية يخدمان العرض المهني. الأدلة العربية تشرح سير العمل والمصطلحات والقوالب والنتائج؛ ليست ترجمة حرفية لجميع الملفات التقنية.
-
-عند إعداد اختبار جديد نشرح الطلب ومعيار نجاحه بالعربية قبل تنفيذه. نحافظ على أرقام التجارب والنسخ، ونسجل أي تغيير في لغة الطلب إذا استُخدم فعليًا.
-
-</div>
-
----
-
-# MT5 AI Trading Lab
-
-**Evidence-led research for AI Trading Solutions — MT5, MQL5, account diagnostics, strategy testing, and broker education.**
-
-Maintained by **Meshal Al-Sultan · Mask Trader**.
-
-This repository is the source of truth for a professional and commercial transition into AI Trading Solutions. It connects reproducible experiments to technical demonstrations, portfolio case studies, broker services, and potential educational products.
-
- > **EXP-009 R5 update:** scoped integration reviewed; 27 core passes, 28 fill/deal passes, four SELL entries and three confirmed strategy closes. BUY integration and profitability unverified. Next: EXP-010 existing-report analysis.
-
-> **Prior milestones: EXP-001 and EXP-002 scoped reviews completed with limitations. EXP-003 synthetic arithmetic independently verified with interpretation corrections; EXP-004 synthetic margin arithmetic verified with limitations. EXP-005 synthetic margin thresholds verified. EXP-006 closed as a manual demo with partial verification. WEEK-01 phase review published; EXP-007 signal specification reviewed; EXP-008 source published, synthetic suite 24 PASS including file status; initial visual demonstration only.**
-> The review documents missing-data handling and the limits of self-audit. Populated-history diagnostic accuracy remains untested. [Read the methodology and evidence limits](experiments/EXP-001-account-diagnostic/RESULTS.md).
-
-## Start here
-
-1. Read the [research workflow](WORKFLOW.md).
-2. Open [EXP-001 — Trading Account Diagnostic](experiments/EXP-001-account-diagnostic/README.md).
-3. Record the actual MT5 build, model, permissions, demo account, and history coverage.
-4. Run Tests A, B, and C; retain exact prompts, responses, and sanitized evidence.
-5. Independently check the results, then complete the [daily log](reports/daily/2026-09-22.md).
-
-## What this lab is building
-
-| Track | Purpose | Evidence to produce |
-|---|---|---|
-| Career | Demonstrate AI Trading Solutions consulting capability | Reproducible demos and technical decisions |
-| Authority | Build a credible portfolio | Experiments, limitations, case studies |
-| B2B | Explore broker education and consulting services | Academy, diagnostic clinic, strategy lab, EA factory |
-| Revenue | Explore Mask Trader products and services | Validated prompt packs, course and workshop pilots |
-
-## For reviewers
-
-- **CTO:** inspect data provenance, reproducibility, verification, failure handling, and future MQL5 source.
-- **Recruiter:** follow the experiment-to-case-study trail and inspect the author's documented contribution.
-- **Broker:** review [solution concepts](broker-solutions/README.md), deliverables, and pilot acceptance criteria.
-
-The directories below describe intended work. Their existence does not imply a delivered product or verified capability.
-
-## Repository map
-
-```text
-experiments/        Experiment register, reusable template, EXP-001
-case-studies/       Evidence-backed portfolio narratives and template
-prompts/            Versioned prompts across five research categories
-mql5/               indicators/, experts/, scripts/ — source only when built
-reports/            daily/ and weekly/ research records and templates
-assets/             screenshots/, charts/, results/ — sanitized evidence
-products/           prompt-pack/, course/, workshop/ concepts
-broker-solutions/   academy/, diagnostic-clinic/, strategy-lab/, ea-factory/
-.github/            Issue templates and pull-request checklist
-```
-
-## Research standards
-
-Every material conclusion must distinguish **observed facts**, **inferences**, and **unknowns**. Record failures alongside successes. AI self-audit is useful but does not replace independent validation. Platform/model capabilities are verified in the recorded environment, never assumed from a roadmap.
-
-Use demo environments for initial experiments. Never commit credentials, account identifiers, raw client records, or unredacted financial exports. Only sanitized material belongs in this portfolio.
-
-## Navigation
-
-[30-day roadmap](ROADMAP.md) · [Experiment register](experiments/README.md) · [Prompt library](prompts/README.md) · [Daily reports](reports/daily/README.md) · [Weekly reports](reports/weekly/README.md) · [Project board fallback](PROJECT.md) · [Contributing](CONTRIBUTING.md)
-
-## License
-
-Original repository content is available under the [MIT License](LICENSE). Third-party data and platform software retain their own terms. Research and educational artifacts are not promises of financial performance.
+## الترخيص
+المحتوى الأصلي تحت [MIT](LICENSE). لا تُدّعى حصرية النصوص العامة. البيانات والبرامج الخارجية تحت شروط أصحابها. لا وعود بأداء مالي.
