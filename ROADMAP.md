@@ -1,6 +1,6 @@
 # MASK AI TRADING 30
 
-Planning baseline from the project conversation. All delivery targets below are planned, not achieved. Daily priorities adapt to experiment results. Day 1 is planned for 2026-09-22; subsequent days are sequence numbers, not claims of work completed. Outreach messages require a separate explicit instruction to send.
+Planning baseline from the project conversation. This is the original sequence; current status is in the linked Arabic roadmap. Current priorities follow trader usefulness and product delivery. Day 1 is planned for 2026-09-22; subsequent days are sequence numbers, not claims of work completed. Outreach messages require a separate explicit instruction to send.
 
 | Day | Focus | Intended artifact |
 |---|---|---|
@@ -37,6 +37,10 @@ Planning baseline from the project conversation. All delivery targets below are 
 
 Review priorities at daily close and at each weekly review. Record changes and reasons in the daily/weekly logs. The four tracks are Career, Authority, B2B, and Revenue; evidence quality determines progress.
 
-## Progress checkpoint — 2026-09-23
 
-Tasks 1–9 have scoped published outcomes; EXP-009 covers tasks 10–12 with R5 limited integration, not strategy validation. Next is task 13: [EXP-010](experiments/EXP-010-backtest-analysis/README.md), analysis of the existing Run 2 report. Optimization remains deferred; no claim of elapsed calendar days.
+## Priority reset — 2026-09-24
+Owner instruction: prioritize practical trader products, career, authority, B2B and revenue. Technical assistant debugging and expanded EXP-009 verification are paused.
+
+The single active product is task 14: an Arabic session-preparation prompt pack. A five-workday / 25-hour delivery cycle covers content, a worked example, demonstration, usability pilot preparation/execution if participants are available, and a commercial offer. Tasks 15–16 do not block it. No full workshop or parallel service launches are implied.
+
+See [current status by stage](docs/ar/ROADMAP.md), [goals](docs/ar/GOALS.md), [product plan](products/prompt-pack/PRODUCT-PLAN.ar.md) and [execution board](PROJECT.md). Historical experiment outcomes retain their limitations. No sales, employment or customer validation is claimed.
