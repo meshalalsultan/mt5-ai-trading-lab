@@ -1,3 +1,10 @@
-# MT5 AI Prompt Pack — concept
+# MT5 AI Prompt Pack — إعداد جلسة التداول ومراجعتها
+**الحالة: قيد التخطيط للإنتاج، غير مطروح كمنتج مكتمل.**
 
-Audience: traders and educators. Proposed deliverable: versioned prompts with inputs, output contracts, tested examples and limitations. Pilot gate: run each included prompt against documented cases and collect usability feedback. Pricing and demand: unvalidated.
+- [خطة المنتج المتكاملة](PRODUCT-PLAN.ar.md): المستخدم، المكونات، الوقت، التحقق، التسويق، قرار البيع.
+- [قالب المخرج وموجز المثال الأول](FIRST-DELIVERABLE.ar.md): مسودة قابلة للقراءة والنسخ، غير مختبرة.
+- [الأهداف](../../docs/ar/GOALS.md) و[المهام](../../PROJECT.md).
+
+نسخ ARQPKG السابقة (U1 v0.3، U2/U3 v0.2) تحتفظ بأسمائها ونتائجها الاصطناعية كما أبلغ عنها المستخدم. الخطة الحالية توسعة نحو استخدام المتداول اليومي، وليست تغييرًا صامتًا لنسخها أو ادعاء بأن الاختبارات السابقة تثبت المنتج الجديد.
+
+المهمة التالية: كتابة الحزمة الستية ودليل البدء، ثم حالة تطبيق واحدة مفهومة. لا تشغيل بروتوكول EA موسع.
